@@ -4,6 +4,7 @@
   "description": "A api with graphql",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon -e js,graphql index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/AlbertJohanson/Curso_Grapql/issues"
   },
-  "homepage": "https://github.com/AlbertJohanson/Curso_Grapql#readme"
+  "homepage": "https://github.com/AlbertJohanson/Curso_Grapql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
