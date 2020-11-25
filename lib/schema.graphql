@@ -44,8 +44,8 @@ input CourseEditInput {
 }
 
 input StudentEditInput {
-    name: String!
-    email: String!
+    name: String
+    email: String
 }
 
 type Mutation {
