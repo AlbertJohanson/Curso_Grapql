@@ -9,6 +9,13 @@ const studentsSchema = new Schema ({
     email: {
         type: String,
     },
+    avatar:{
+        data: Buffer, 
+        type: String
+    },
+    phone: {
+        type: String,
+    }
 })
 
 module.exports = mongoose.model('Student', studentsSchema, 'Students');
